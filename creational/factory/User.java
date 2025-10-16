@@ -7,3 +7,12 @@ public class User {
     }
     public String getInfo() { return type + ": " + name; }
 }
+
+
+// package creational.factory;
+
+// public class UserFactory {
+//     public static User createUser(String name, String type) {
+//         return new User(name, type);
+//     }
+// }
